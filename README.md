@@ -16,9 +16,9 @@
 ![截图](https://raw.githubusercontent.com/ZUXTUO/Tokyo-Guru-War-Age-Offline-/04162fa51a077e979e4755651c182cfc4ed49d9f/Screenshot/Screenshot_2.jpg)
 ![截图](https://raw.githubusercontent.com/ZUXTUO/Tokyo-Guru-War-Age-Offline-/04162fa51a077e979e4755651c182cfc4ed49d9f/Screenshot/Screenshot_3.jpg)
 
-## This is the Tokyo Guru War Age fan-made version
+## This is the Tokyo Ghoul War Age fan-made version
 Sorry for my English.
-Hello! Tokyo Guru War Age had be discontinued on **January 15, 2020**. 
+Hello! Tokyo Ghoul War Age had be discontinued on **January 15, 2020**. 
 Later, some one made their own for nostalgia, but the production cycle was not long, the technical level was uneven, and the source code changed hands many times, which was extremely confusing and difficult to maintain.
 The developers who have taken over are anonymous, so this fan work has been open sourced with the permission of some developers.
 
