@@ -1,0 +1,29 @@
+<linker>
+  <assembly fullname="System.Web.Secvices">
+    <type fullname="System.Web.Services.Protocols.ScapTypeStubInfo" preserve="all"/>
+    <type fullname="System.Web.Services.Configuration.WebServicesConfigurationSectionHandler" preserve="all"/>
+      </assembly>
+    <assembly fullname="System">
+    <type fullname="System.Net.Configuration.WebRequestModuleHandler" preserve="all"/>
+    <type fullname="System.Net.HttpRequestCreator" preserve="all"/>
+    <type fullname="System.Net.FileWebRequestCreator" preserve="all"/>
+  </assembly>
+  <type fullname="mscorlib">
+    <type fullname="System.Reflection" preserve="all"/>
+    <type fullname="System.Security.Cryptography" preserve="all"/>
+    <type fullname="System.Runtime.CompilerServices" preserve="all"/>
+    <type fullname="System.Runtime.InteropServices" preserve="all"/>
+    <type fullname="System.Diagnostics" preserve="all"/>
+    <type fullname="System.Security" preserve="all"/>
+    <type fullname="System.Security.Permissions" preserve="all"/>
+    <type fullname="System.AppDomain" preserve="fields"/>
+    <type fullname="System.InvalidOperationException" preserve="fields"/>
+    <method signature="System.Void.ctor()"/>
+  </type>
+  <type fullname="System.Object" preserve="nothing">
+    <method name="Finalize"/>
+  </type>
+  <assembly fullname="JsonDotNet">
+    <namespace fullname="Newtonsoft.Json" preserve="all"/>
+  </assembly>
+</linker>

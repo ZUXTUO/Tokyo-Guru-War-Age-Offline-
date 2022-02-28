@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "JM_Z-\u8D6B\u5B50"
+  m_Shader: {fileID: 4800000, guid: 5571786c1931dc4469c73f962633753b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlashTex:
+        m_Texture: {fileID: 2800000, guid: 5ee27288b0730f645a59e199205f0af9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMaskTex:
+        m_Texture: {fileID: 2800000, guid: 5ee27288b0730f645a59e199205f0af9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowTex:
+        m_Texture: {fileID: 2800000, guid: 5ee27288b0730f645a59e199205f0af9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightTex:
+        m_Texture: {fileID: 2800000, guid: a1ec7631692b9ae468bb22b89fdc4abb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 063c54d68af79214888f1a1177c49e53, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 52dc7fc8504ffa4478509abbf225397b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 063c54d68af79214888f1a1177c49e53, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Angle: 50
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _Density: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FlashStrength: 0.8
+    - _FlowBeginTime: 0
+    - _FlowDirection: 0
+    - _FlowDuring: 0.52
+    - _FlowIdleTime: 1.33
+    - _FlowRange: 0.03
+    - _Gloss: 145
+    - _GlossMapScale: 1
+    - _Glossiness: 0.846
+    - _GlossyReflections: 1
+    - _Interval: 1.92
+    - _LightWidth: 11.4
+    - _Line_thickness: 0.002
+    - _LoopTime: 2.95
+    - _Metallic: 0.899
+    - _Mode: 0
+    - _MoveDir: -0.3
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RimPower: 0.751
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpeedX: -0
+    - _SpeedY: 0.08
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _Width: 0.436
+    - _ZWrite: 1
+    - _uvaddspeed: 5
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 1, g: 0, b: 0, a: 1}
+    - _Color2: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FlashColor: {r: 1, g: 0, b: 0, a: 1}
+    - _FlashFactor: {r: 0, g: 1, b: 0.5, a: 0.5}
+    - _FlowColor: {r: 1, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MoveLightColor: {r: 1, g: 0.52445894, b: 0, a: 1}
+    - _RimColor: {r: 1, g: 0, b: 0, a: 1}
+    - _Specular: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
