@@ -12,7 +12,9 @@
 ## 请勿商用
 本“游戏项目”为同人向作品，请勿进行任何商用操作。否则后果自负，匿名开发者及上传者不负任何责任。
 
-
+![截图](https://raw.githubusercontent.com/ZUXTUO/Tokyo-Guru-War-Age-Offline-/04162fa51a077e979e4755651c182cfc4ed49d9f/Screenshot/Screenshot_1.jpg)
+![截图](https://raw.githubusercontent.com/ZUXTUO/Tokyo-Guru-War-Age-Offline-/04162fa51a077e979e4755651c182cfc4ed49d9f/Screenshot/Screenshot_2.jpg)
+![截图](https://raw.githubusercontent.com/ZUXTUO/Tokyo-Guru-War-Age-Offline-/04162fa51a077e979e4755651c182cfc4ed49d9f/Screenshot/Screenshot_3.jpg)
 
 ## This is the Tokyo Guru War Age fan-made version
 Sorry for my English.
