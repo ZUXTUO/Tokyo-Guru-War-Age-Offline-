@@ -4,7 +4,7 @@
 曾接手的开发者均为匿名，因此此同人作品经过部分开发者许可后开源。
 
 ## 所使用的开发引擎
-项目经过UnityHUB导入检测，使用了Unity 2020.2.6f1进行开发。
+项目经过UnityHUB导入检测，使用了Unity 2022.3.62f1进行开发。
 
 ## 制作进度
 进度很低，相当低。仅实现了一个还算像样的主菜单界面，集成了一个非常一般的MOBA控制器，且源代码整合相当混乱，已难以再次维护，如果有大佬愿意继续开发，欢迎尝试。
@@ -23,7 +23,7 @@ Later, some one made their own for nostalgia, but the production cycle was not l
 The developers who have taken over are anonymous, so this fan work has been open sourced with the permission of some developers.
 
 ## Development engine used
-The project has been imported and detected by Unity HUB and developed using Unity 2020.2.6f1.
+The project has been imported and detected by Unity HUB and developed using Unity 2022.3.62f1.
 
 ## Project progress
 Progress is low, quite low. 

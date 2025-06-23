@@ -51,7 +51,7 @@ TextureImporter:
       213: -5283981045049824426
     second: 3921_yanhua1_15
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -68,11 +68,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -111,6 +112,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -122,30 +125,46 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 12
     textureCompression: 1
-    compressionQuality: 50
+    compressionQuality: 75
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 48
     textureCompression: 1
-    compressionQuality: 50
+    compressionQuality: 75
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 48
+    textureCompression: 1
+    compressionQuality: 75
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -498,25 +517,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      3921_yanhua1_5: 2650104563665394837
-      3921_yanhua1_1: -7970996006769558681
-      3921_yanhua1_9: -2253290224371739878
-      3921_yanhua1_14: -2322052019590181317
-      3921_yanhua1_2: -4254703644188701815
-      3921_yanhua1_12: 5046071852591780662
-      3921_yanhua1_11: 5997436984836008164
-      3921_yanhua1_7: 6468399968655068573
-      3921_yanhua1_10: 7137710937388084852
-      3921_yanhua1_15: -5283981045049824426
-      3921_yanhua1_4: -7406858335394448444
-      3921_yanhua1_6: 4503827412823061313
-      3921_yanhua1_3: 1356818491755156087
-      3921_yanhua1_8: -1854442567011225083
       3921_yanhua1_0: -1119333112130584430
+      3921_yanhua1_1: -7970996006769558681
+      3921_yanhua1_10: 7137710937388084852
+      3921_yanhua1_11: 5997436984836008164
+      3921_yanhua1_12: 5046071852591780662
       3921_yanhua1_13: -2164578831481916128
-  spritePackingTag: 
+      3921_yanhua1_14: -2322052019590181317
+      3921_yanhua1_15: -5283981045049824426
+      3921_yanhua1_2: -4254703644188701815
+      3921_yanhua1_3: 1356818491755156087
+      3921_yanhua1_4: -7406858335394448444
+      3921_yanhua1_5: 2650104563665394837
+      3921_yanhua1_6: 4503827412823061313
+      3921_yanhua1_7: 6468399968655068573
+      3921_yanhua1_8: -1854442567011225083
+      3921_yanhua1_9: -2253290224371739878
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

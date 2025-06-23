@@ -345,7 +345,7 @@ TextureImporter:
       213: 1005802624526961390
     second: head_picture_113
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -362,11 +362,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -405,6 +406,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -416,30 +419,46 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 12
     textureCompression: 1
-    compressionQuality: 50
+    compressionQuality: 75
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 48
     textureCompression: 1
-    compressionQuality: 50
+    compressionQuality: 75
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: 48
+    textureCompression: 1
+    compressionQuality: 75
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2829,122 +2848,121 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      head_picture_2: -8952648441869155367
-      head_picture_36: 8548168765183111953
-      head_picture_96: 7822698436769871745
-      head_picture_30: 6585385573663339086
-      head_picture_63: -4298022960811159620
-      head_picture_72: 281603335608124660
-      head_picture_55: 2685868804037729176
-      head_picture_104: -6941096040803296585
-      head_picture_32: -7234377152963189447
-      head_picture_86: 787760536293644169
-      head_picture_5: 7907504818642579709
-      head_picture_107: -2411054514793506960
-      head_picture_66: 2379097549612100442
-      head_picture_82: 8317179240900110389
-      head_picture_71: -210196456691391516
-      head_picture_31: -774853178904856389
-      head_picture_46: 7541502309272342676
-      head_picture_18: 7063812027000154077
-      head_picture_97: 1996446085870800395
-      head_picture_92: 9044085298535580256
-      head_picture_3: -7388214037938150683
-      head_picture_58: -6062603911215669081
-      head_picture_81: 279928841764413419
-      head_picture_69: -7858110386489424337
-      head_picture_24: 5132082038610187420
-      head_picture_8: 5129513533693308946
-      head_picture_77: -9033491217424581756
-      head_picture_42: -8444717527474080307
-      head_picture_79: -1857931005564124394
-      head_picture_15: -3563071529110687223
-      head_picture_108: 457181292121612331
-      head_picture_4: -7474893802058221204
-      head_picture_41: -4678772927608992574
-      head_picture_29: -2527687680183366969
-      head_picture_110: -2733196660240027468
-      head_picture_23: -5200982749479061129
-      head_picture_45: -6797915923122493212
-      head_picture_13: -5948036987530932783
-      head_picture_50: 3369477563574561987
-      head_picture_84: 8426225405081818934
-      head_picture_1: 4880693399150366348
-      head_picture_68: 5975497730314157220
-      head_picture_61: -1134505826570141377
-      head_picture_6: -1500676057624643877
-      head_picture_100: -995375835002166586
-      head_picture_22: 8829781745704636846
-      head_picture_89: -5752338653104132076
-      head_picture_34: -2449550574395369574
-      head_picture_38: -6683011903246821025
-      head_picture_91: 398577018866247454
-      head_picture_39: 8746512344567712940
-      head_picture_94: 4185812072492277514
-      head_picture_112: -5251153631047563194
-      head_picture_75: -2893940487933234332
-      head_picture_27: 2465055781648696415
-      head_picture_62: 7183350586332814168
-      head_picture_109: -1774801338130702885
-      head_picture_17: 3998169950309248713
-      head_picture_54: 298015476230894535
-      head_picture_83: -9033947080471808248
-      head_picture_40: -7795601506839072944
-      head_picture_87: -8118369836499635150
-      head_picture_98: 2084979600905021337
-      head_picture_102: -7091386103995847433
-      head_picture_9: 7268134294248294042
-      head_picture_10: 6461581732933389534
-      head_picture_95: 4686385355444691443
-      head_picture_76: 5353612125314128022
-      head_picture_59: 529554863348124099
-      head_picture_85: -1635880626887963082
-      head_picture_51: 9051994357619827586
       head_picture_0: 798679371730520458
-      head_picture_14: -8012915993905462362
-      head_picture_78: -6511000070647463377
-      head_picture_64: -2084799947057021448
-      head_picture_20: -8150948918316733844
-      head_picture_43: -1062774087165897423
-      head_picture_49: -1036341376724834023
-      head_picture_65: 5252502869301087055
-      head_picture_67: -2287804538961130322
-      head_picture_44: -4030001469389951812
-      head_picture_70: 6967170365672334340
-      head_picture_48: 1682759879475215829
-      head_picture_93: -4008650515435065416
-      head_picture_56: 5735705858079467952
-      head_picture_52: 2685132499328477214
-      head_picture_57: -5183938213614210368
-      head_picture_19: 4448590386717520577
-      head_picture_103: -3752352088239382543
-      head_picture_7: 8889369239028203250
-      head_picture_12: -7880594892401125232
-      head_picture_106: -8847500614498246951
-      head_picture_74: 5824815262057082157
-      head_picture_105: 7834554114492412550
-      head_picture_80: -8900904462428455743
-      head_picture_11: 4605606731448561506
-      head_picture_26: -5738738923413619231
-      head_picture_90: -7953357841132137742
-      head_picture_111: 3743495627851925001
-      head_picture_37: -8552616559934461179
-      head_picture_88: -909444187397569143
-      head_picture_25: 6791659469148685630
-      head_picture_47: 1696820723361762926
-      head_picture_16: 8554259596481478045
-      head_picture_28: 3021092189329302028
-      head_picture_99: 2679904271690406401
-      head_picture_35: -356497932903782897
-      head_picture_21: 4232309226024286793
-      head_picture_33: 7732174019612533050
+      head_picture_1: 4880693399150366348
+      head_picture_10: 6461581732933389534
+      head_picture_100: -995375835002166586
       head_picture_101: 510136024064543716
+      head_picture_102: -7091386103995847433
+      head_picture_103: -3752352088239382543
+      head_picture_104: -6941096040803296585
+      head_picture_105: 7834554114492412550
+      head_picture_106: -8847500614498246951
+      head_picture_107: -2411054514793506960
+      head_picture_108: 457181292121612331
+      head_picture_109: -1774801338130702885
+      head_picture_11: 4605606731448561506
+      head_picture_110: -2733196660240027468
+      head_picture_111: 3743495627851925001
+      head_picture_112: -5251153631047563194
+      head_picture_12: -7880594892401125232
+      head_picture_13: -5948036987530932783
+      head_picture_14: -8012915993905462362
+      head_picture_15: -3563071529110687223
+      head_picture_16: 8554259596481478045
+      head_picture_17: 3998169950309248713
+      head_picture_18: 7063812027000154077
+      head_picture_19: 4448590386717520577
+      head_picture_2: -8952648441869155367
+      head_picture_20: -8150948918316733844
+      head_picture_21: 4232309226024286793
+      head_picture_22: 8829781745704636846
+      head_picture_23: -5200982749479061129
+      head_picture_24: 5132082038610187420
+      head_picture_25: 6791659469148685630
+      head_picture_26: -5738738923413619231
+      head_picture_27: 2465055781648696415
+      head_picture_28: 3021092189329302028
+      head_picture_29: -2527687680183366969
+      head_picture_3: -7388214037938150683
+      head_picture_30: 6585385573663339086
+      head_picture_31: -774853178904856389
+      head_picture_32: -7234377152963189447
+      head_picture_33: 7732174019612533050
+      head_picture_34: -2449550574395369574
+      head_picture_35: -356497932903782897
+      head_picture_36: 8548168765183111953
+      head_picture_37: -8552616559934461179
+      head_picture_38: -6683011903246821025
+      head_picture_39: 8746512344567712940
+      head_picture_4: -7474893802058221204
+      head_picture_40: -7795601506839072944
+      head_picture_41: -4678772927608992574
+      head_picture_42: -8444717527474080307
+      head_picture_43: -1062774087165897423
+      head_picture_44: -4030001469389951812
+      head_picture_45: -6797915923122493212
+      head_picture_46: 7541502309272342676
+      head_picture_47: 1696820723361762926
+      head_picture_48: 1682759879475215829
+      head_picture_49: -1036341376724834023
+      head_picture_5: 7907504818642579709
+      head_picture_50: 3369477563574561987
+      head_picture_51: 9051994357619827586
+      head_picture_52: 2685132499328477214
       head_picture_53: 3623061041754631718
-      head_picture_73: 1629280049229460296
+      head_picture_54: 298015476230894535
+      head_picture_55: 2685868804037729176
+      head_picture_56: 5735705858079467952
+      head_picture_57: -5183938213614210368
+      head_picture_58: -6062603911215669081
+      head_picture_59: 529554863348124099
+      head_picture_6: -1500676057624643877
       head_picture_60: -8415313744353933766
-  spritePackingTag: 
+      head_picture_61: -1134505826570141377
+      head_picture_62: 7183350586332814168
+      head_picture_63: -4298022960811159620
+      head_picture_64: -2084799947057021448
+      head_picture_65: 5252502869301087055
+      head_picture_66: 2379097549612100442
+      head_picture_67: -2287804538961130322
+      head_picture_68: 5975497730314157220
+      head_picture_69: -7858110386489424337
+      head_picture_7: 8889369239028203250
+      head_picture_70: 6967170365672334340
+      head_picture_71: -210196456691391516
+      head_picture_72: 281603335608124660
+      head_picture_73: 1629280049229460296
+      head_picture_74: 5824815262057082157
+      head_picture_75: -2893940487933234332
+      head_picture_76: 5353612125314128022
+      head_picture_77: -9033491217424581756
+      head_picture_78: -6511000070647463377
+      head_picture_79: -1857931005564124394
+      head_picture_8: 5129513533693308946
+      head_picture_80: -8900904462428455743
+      head_picture_81: 279928841764413419
+      head_picture_82: 8317179240900110389
+      head_picture_83: -9033947080471808248
+      head_picture_84: 8426225405081818934
+      head_picture_85: -1635880626887963082
+      head_picture_86: 787760536293644169
+      head_picture_87: -8118369836499635150
+      head_picture_88: -909444187397569143
+      head_picture_89: -5752338653104132076
+      head_picture_9: 7268134294248294042
+      head_picture_90: -7953357841132137742
+      head_picture_91: 398577018866247454
+      head_picture_92: 9044085298535580256
+      head_picture_93: -4008650515435065416
+      head_picture_94: 4185812072492277514
+      head_picture_95: 4686385355444691443
+      head_picture_96: 7822698436769871745
+      head_picture_97: 1996446085870800395
+      head_picture_98: 2084979600905021337
+      head_picture_99: 2679904271690406401
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
